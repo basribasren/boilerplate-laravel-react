@@ -19386,7 +19386,7 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-notification-alert/dist/animate.css":
 /*!************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/react-notification-alert/dist/animate.css ***!
+  !*** ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/react-notification-alert/dist/animate.css ***!
   \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19397,6 +19397,25 @@ exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base
 
 // module
 exports.push([module.i, "/*!\nAnimate.css - http://daneden.me/animate\nLicensed under the MIT license - http://opensource.org/licenses/MIT\n\nCopyright (c) 2015 Daniel Eden\n*/\n.animated {\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n}\n\n.animated.infinite {\n  -webkit-animation-iteration-count: infinite;\n  animation-iteration-count: infinite;\n}\n\n.animated.hinge {\n  -webkit-animation-duration: 2s;\n  animation-duration: 2s;\n}\n\n.animated.bounceIn,\n.animated.bounceOut {\n  -webkit-animation-duration: .75s;\n  animation-duration: .75s;\n}\n\n.animated.flipOutX,\n.animated.flipOutY {\n  -webkit-animation-duration: .75s;\n  animation-duration: .75s;\n}\n\n@-webkit-keyframes shake {\n  from, to {\n    -webkit-transform: translate3d(0, 0, 0);\n    transform: translate3d(0, 0, 0);\n  }\n  10%, 30%, 50%, 70%, 90% {\n    -webkit-transform: translate3d(-10px, 0, 0);\n    transform: translate3d(-10px, 0, 0);\n  }\n  20%, 40%, 60%, 80% {\n    -webkit-transform: translate3d(10px, 0, 0);\n    transform: translate3d(10px, 0, 0);\n  }\n}\n@keyframes shake {\n  from, to {\n    -webkit-transform: translate3d(0, 0, 0);\n    transform: translate3d(0, 0, 0);\n  }\n  10%, 30%, 50%, 70%, 90% {\n    -webkit-transform: translate3d(-10px, 0, 0);\n    transform: translate3d(-10px, 0, 0);\n  }\n  20%, 40%, 60%, 80% {\n    -webkit-transform: translate3d(10px, 0, 0);\n    transform: translate3d(10px, 0, 0);\n  }\n}\n.shake {\n  -webkit-animation-name: shake;\n  animation-name: shake;\n}\n\n@-webkit-keyframes fadeInDown {\n  from {\n    opacity: 0;\n    -webkit-transform: translate3d(0, -100%, 0);\n    transform: translate3d(0, -100%, 0);\n  }\n  to {\n    opacity: 1;\n    -webkit-transform: none;\n    transform: none;\n  }\n}\n@keyframes fadeInDown {\n  from {\n    opacity: 0;\n    -webkit-transform: translate3d(0, -100%, 0);\n    transform: translate3d(0, -100%, 0);\n  }\n  to {\n    opacity: 1;\n    -webkit-transform: none;\n    transform: none;\n  }\n}\n.fadeInDown {\n  -webkit-animation-name: fadeInDown;\n  animation-name: fadeInDown;\n}\n\n@-webkit-keyframes fadeOut {\n  from {\n    opacity: 1;\n  }\n  to {\n    opacity: 0;\n  }\n}\n@keyframes fadeOut {\n  from {\n    opacity: 1;\n  }\n  to {\n    opacity: 0;\n  }\n}\n.fadeOut {\n  -webkit-animation-name: fadeOut;\n  animation-name: fadeOut;\n}\n\n@-webkit-keyframes fadeOutDown {\n  from {\n    opacity: 1;\n  }\n  to {\n    opacity: 0;\n    -webkit-transform: translate3d(0, 100%, 0);\n    transform: translate3d(0, 100%, 0);\n  }\n}\n@keyframes fadeOutDown {\n  from {\n    opacity: 1;\n  }\n  to {\n    opacity: 0;\n    -webkit-transform: translate3d(0, 100%, 0);\n    transform: translate3d(0, 100%, 0);\n  }\n}\n.fadeOutDown {\n  -webkit-animation-name: fadeOutDown;\n  animation-name: fadeOutDown;\n}\n\n@-webkit-keyframes fadeOutUp {\n  from {\n    opacity: 1;\n  }\n  to {\n    opacity: 0;\n    -webkit-transform: translate3d(0, -100%, 0);\n    transform: translate3d(0, -100%, 0);\n  }\n}\n@keyframes fadeOutUp {\n  from {\n    opacity: 1;\n  }\n  to {\n    opacity: 0;\n    -webkit-transform: translate3d(0, -100%, 0);\n    transform: translate3d(0, -100%, 0);\n  }\n}\n.fadeOutUp {\n  -webkit-animation-name: fadeOutUp;\n  animation-name: fadeOutUp;\n}\n\n@-webkit-keyframes moveUp {\n  from {\n    -webkit-transform: translate3d(0, 0, 0);\n    transform: translate3d(0, 0, 0);\n  }\n  to {\n    -webkit-transform: translate3d(0, calc( -100% - 19px), 0);\n    transform: translate3d(0, calc( -100% - 19px), 0);\n  }\n}\n@keyframes moveUp {\n  from {\n    -webkit-transform: translate3d(0, 0, 0);\n    transform: translate3d(0, 0, 0);\n  }\n  to {\n    -webkit-transform: translate3d(0, calc( -100% - 19px), 0);\n    transform: translate3d(0, calc( -100% - 19px), 0);\n  }\n}\n.moveUp {\n  -webkit-animation-name: moveUp;\n  animation-name: moveUp;\n}\n\n@-webkit-keyframes moveDown {\n  from {\n    -webkit-transform: translate3d(0, 0, 0);\n    transform: translate3d(0, 0, 0);\n  }\n  to {\n    -webkit-transform: translate3d(0, calc( 100% + 19px), 0);\n    transform: translate3d(0, calc( 100% + 19px), 0);\n  }\n}\n@keyframes moveDown {\n  from {\n    -webkit-transform: translate3d(0, 0, 0);\n    transform: translate3d(0, 0, 0);\n  }\n  to {\n    -webkit-transform: translate3d(0, calc( 100% + 19px), 0);\n    transform: translate3d(0, calc( 100% + 19px), 0);\n  }\n}\n.moveDown {\n  -webkit-animation-name: moveDown;\n  animation-name: moveDown;\n}\n\n@-webkit-keyframes show {\n  from {\n    opacity: 0;\n    -webkit-transform: translate(0, -25%);\n    transform: translate(0, -25%);\n  }\n  to {\n    opacity: 1;\n    -webkit-transform: translate(0, 0);\n    transform: translate(0, 0);\n  }\n}\n@keyframes show {\n  from {\n    opacity: 0;\n    -webkit-transform: translate(0, -25%);\n    transform: translate(0, -25%);\n  }\n  to {\n    opacity: 1;\n    -webkit-transform: translate(0, 0);\n    transform: translate(0, 0);\n  }\n}\n.fade.show .modal-dialog {\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n  -webkit-animation-name: show;\n  animation-name: show;\n}\n\n@-webkit-keyframes fade {\n  from {\n    opacity: 1;\n    -webkit-transform: translate(0, 0);\n    transform: translate(0, 0);\n  }\n  to {\n    opacity: 0;\n    -webkit-transform: translate(0, -25%);\n    transform: translate(0, -25%);\n  }\n}\n@keyframes fade {\n  from {\n    opacity: 1;\n    -webkit-transform: translate(0, 0);\n    transform: translate(0, 0);\n  }\n  to {\n    opacity: 0;\n    -webkit-transform: translate(0, -25%);\n    transform: translate(0, -25%);\n  }\n}\n.fade .modal-dialog {\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n  -webkit-animation-name: fade;\n  animation-name: fade;\n}\n\n@-webkit-keyframes showMini {\n  from {\n    opacity: 0;\n    -webkit-transform: translate(0, -25%);\n    transform: translate(0, -25%);\n  }\n  to {\n    opacity: 1;\n    -webkit-transform: translate(0, 30%);\n    transform: translate(0, 30%);\n  }\n}\n@keyframes showMini {\n  from {\n    opacity: 0;\n    -webkit-transform: translate(0, -25%);\n    transform: translate(0, -25%);\n  }\n  to {\n    opacity: 1;\n    -webkit-transform: translate(0, 30%);\n    transform: translate(0, 30%);\n  }\n}\n.fade.show .modal-mini.modal-dialog {\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n  -webkit-animation-name: showMini;\n  animation-name: showMini;\n}\n\n@-webkit-keyframes fadeMini {\n  from {\n    opacity: 1;\n    -webkit-transform: translate(0, 30%);\n    transform: translate(0, 30%);\n  }\n  to {\n    opacity: 0;\n    -webkit-transform: translate(0, -25%);\n    transform: translate(0, -25%);\n  }\n}\n@keyframes fadeMini {\n  from {\n    opacity: 1;\n    -webkit-transform: translate(0, 30%);\n    transform: translate(0, 30%);\n  }\n  to {\n    opacity: 0;\n    -webkit-transform: translate(0, -25%);\n    transform: translate(0, -25%);\n  }\n}\n.fade .modal-mini.modal-dialog {\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n  -webkit-animation-name: fadeMini;\n  animation-name: fadeMini;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/react/assets/demo/demo.css":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./resources/react/assets/demo/demo.css ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".tim-row {\n  margin-bottom: 20px;\n}\n\n.tim-white-buttons {\n  background-color: #777777;\n}\n\n.typography-line {\n  padding-left: 25%;\n  margin-bottom: 35px;\n  position: relative;\n  display: block;\n  width: 100%;\n}\n\n.typography-line span {\n  bottom: 10px;\n  color: #c0c1c2;\n  display: block;\n  font-weight: 400;\n  font-size: 13px;\n  line-height: 13px;\n  left: 0;\n  position: absolute;\n  width: 260px;\n  text-transform: none;\n}\n\n.tim-row {\n  padding-top: 60px;\n}\n\n.tim-row h3 {\n  margin-top: 0;\n}\n\n.offline-doc .page-header {\n  display: flex;\n  align-items: center;\n}\n\n.offline-doc .footer {\n  position: absolute;\n  width: 100%;\n  background: transparent;\n  bottom: 0;\n  color: #fff;\n  z-index: 1;\n  padding-left: 0;\n}\n\n@media all and (min-width: 992px) {\n  .sidebar .nav>li.active-pro {\n    position: absolute;\n    width: 100%;\n    bottom: 10px;\n  }\n}\n\n.card.card-upgrade .card-category {\n  max-width: 530px;\n  margin: 0 auto;\n}\n\n.offline-doc .page-header {\n  min-height: 100vh;\n  max-height: 999px;\n  padding: 0;\n  color: #ffffff;\n  position: relative; }\n  .offline-doc .page-header .page-header-image {\n    position: absolute;\n    background-size: cover;\n    background-position: center center;\n    width: 100%;\n    height: 100%;\n    z-index: -1; }\n  .offline-doc .page-header .content-center {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    z-index: 2;\n    -webkit-transform: translate(-50%, -50%);\n    transform: translate(-50%, -50%);\n    text-align: center;\n    color: #FFFFFF;\n    padding: 0 15px;\n    width: 100%;\n    max-width: 880px; }\n  .offline-doc .page-header footer {\n    position: absolute;\n    bottom: 0;\n    width: 100%; }\n  .offline-doc .page-header .container {\n    height: 100%;\n    z-index: 1; }\n  .offline-doc .page-header .category,\n  .offline-doc .page-header .description {\n    color: rgba(255, 255, 255, 0.8); }\n  .offline-doc .page-header.page-header-small {\n    min-height: 60vh;\n    max-height: 440px; }\n  .offline-doc .page-header.page-header-mini {\n    min-height: 40vh;\n    max-height: 340px; }\n  .offline-doc .page-header .title {\n    margin-bottom: 15px; }\n  .offline-doc .page-header .title + h4 {\n    margin-top: 10px; }\n  .offline-doc .page-header:after, .offline-doc .page-header:before {\n    position: absolute;\n    z-index: 0;\n    width: 100%;\n    height: 100%;\n    display: block;\n    left: 0;\n    top: 0;\n    content: \"\"; }\n  .offline-doc .page-header:before {\n    background-color: rgba(0, 0, 0, 0.8); }\n", ""]);
 
 // exports
 
@@ -96292,7 +96311,7 @@ function polyfill(Component) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./animate.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-notification-alert/dist/animate.css");
+var content = __webpack_require__(/*! !../../css-loader??ref--7-1!../../postcss-loader/src??ref--7-2!./animate.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-notification-alert/dist/animate.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -110369,6 +110388,36 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/react/assets/demo/demo.css":
+/*!**********************************************!*\
+  !*** ./resources/react/assets/demo/demo.css ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--7-1!../../../../node_modules/postcss-loader/src??ref--7-2!./demo.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/react/assets/demo/demo.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/react/assets/img/anime3.png":
 /*!***********************************************!*\
   !*** ./resources/react/assets/img/anime3.png ***!
@@ -110406,6 +110455,17 @@ module.exports = "/images/react-logo.png?eb6be414b75c412c13eeee2d2e8390cb";
 /*!****************************************************************!*\
   !*** ./resources/react/assets/sass/black-dashboard-react.scss ***!
   \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/react/assets/sass/nucleo-icons.scss":
+/*!*******************************************************!*\
+  !*** ./resources/react/assets/sass/nucleo-icons.scss ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -111428,14 +111488,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
 /* harmony import */ var _layouts_Admin_Admin_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./layouts/Admin/Admin.jsx */ "./resources/react/layouts/Admin/Admin.jsx");
 /* harmony import */ var _layouts_RTL_RTL_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./layouts/RTL/RTL.jsx */ "./resources/react/layouts/RTL/RTL.jsx");
+/* harmony import */ var _assets_demo_demo_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/demo/demo.css */ "./resources/react/assets/demo/demo.css");
+/* harmony import */ var _assets_demo_demo_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_demo_demo_css__WEBPACK_IMPORTED_MODULE_6__);
 
 
 
 
 
  // import "assets/scss/black-dashboard-react.scss";
-// import "assets/demo/demo.css";
-// import "assets/css/nucleo-icons.css";
+
+ // import "./assets/demo/nucleo-icons.css";
 
 var hist = Object(history__WEBPACK_IMPORTED_MODULE_2__["createBrowserHistory"])();
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Router"], {
@@ -115210,14 +115272,15 @@ __webpack_require__(/*! ../react */ "./resources/react/index.js");
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************************************************************!*\
-  !*** multi ./resources/views/merge-react.js ./resources/react/assets/sass/black-dashboard-react.scss ***!
-  \*******************************************************************************************************/
+/*!*******************************************************************************************************************************************************!*\
+  !*** multi ./resources/views/merge-react.js ./resources/react/assets/sass/black-dashboard-react.scss ./resources/react/assets/sass/nucleo-icons.scss ***!
+  \*******************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\xampp\htdocs\laravel\resources\views\merge-react.js */"./resources/views/merge-react.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\laravel\resources\react\assets\sass\black-dashboard-react.scss */"./resources/react/assets/sass/black-dashboard-react.scss");
+__webpack_require__(/*! C:\xampp\htdocs\laravel\resources\react\assets\sass\black-dashboard-react.scss */"./resources/react/assets/sass/black-dashboard-react.scss");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\laravel\resources\react\assets\sass\nucleo-icons.scss */"./resources/react/assets/sass/nucleo-icons.scss");
 
 
 /***/ })

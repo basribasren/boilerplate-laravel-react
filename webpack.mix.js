@@ -14,6 +14,4 @@ const mix = require('laravel-mix');
 mix.react('resources/views/merge-react.js', 'public/assets/js');
 
 mix.sass('resources/react/assets/sass/black-dashboard-react.scss', 'public/assets/css');
-mix.copyDirectory('resources/react/assets/fonts', 'public/assets/fonts');
-mix.copyDirectory('resources/react/assets/demo', 'public/assets/demo');
-
+mix.sass('resources/react/assets/sass/nucleo-icons.scss', 'public/assets/css');
